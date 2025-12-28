@@ -55,21 +55,15 @@ document.querySelectorAll(".fade").forEach((el) => observer.observe(el));
 // Dynamic Projects
 const projects = [
   {
-    name: "Spoural Management System",
-    tech: ["PHP", "MySQL", "HTML","CSS","JavaScript"],
-    desc: "Live event and workshop platform still running inside CHARUSAT for real-time registrations.",
-    impact: "Handled 5K+ student signups with queued notifications and ongoing maintenance.",
-    live: "🔴 Live @ CHARUSAT",
-    link: "http://spoural.charusat.edu.in/"
+   name: "Spoural Management System",
+tech: ["PHP", "MySQL", "HTML", "CSS", "JavaScript"],
+desc: "Live sports and cultural event management platform deployed at CHARUSAT for real-time registrations and event coordination.",
+impact: "Handled 5K+ student registrations with live match updates, winner announcements, and student registration.",
+live: "🔴 Live @ CHARUSAT",
+link: "http://spoural.charusat.edu.in/"
+
   },
-  {
-    name: "Auction System",
-    tech: ["Spring Boot", "WebSockets", "Thymeleaf","Spring Security"],
-    desc: "Realtime bidding engine with authentication, role access, and admin dashboards.",
-    impact: "Reduced manual auction ops by 70% through automation.",
-    link: "https://github.com/hindochahitarth/ARTSEA"
-  },
-  {
+   {
     name: "MDHostel App",
     tech: ["Flutter", "Dart", "Firebase","API","Postman"],
     desc: "End-to-end hostel management app that remains live for MD Hostel.",
@@ -78,6 +72,15 @@ const projects = [
     link: "https://play.google.com/store/apps/details?id=com.crown.mdhostel32"
   },
   {
+    name: "Auction System",
+    live:"",
+    tech: ["Spring Boot", "WebSockets", "Thymeleaf","Spring Security"],
+    desc: "Realtime bidding engine with authentication, role access, and admin dashboards.",
+    impact: "Reduced manual auction ops by 70% through automation.",
+    link: "https://github.com/hindochahitarth/ARTSEA"
+  },
+ 
+  {
     name: "KidsAcademy App",
     tech: ["Flutter", "Dart","UI/UX"],
     desc: "Developed a kids-learning app with visuals, audio, and interactive games for ages 2–5.",
@@ -85,11 +88,11 @@ const projects = [
    // link: "https://github.com/your-github-username/kidsacademy-app"
   },
   {
-    name: "SamsungStore WebApp",
-    tech: ["Java", "Hibernate", "JSP", "Servlets", "MySQL"],
-    desc: "Built a Samsung product catalogue web app with authentication, cart, and order flow.",
-    impact: "Implemented MVC patterns and Hibernate-backed CRUD so admins can manage inventory in real time.",
-    link: "https://github.com/your-github-username/samsung-store-webapp"
+   name: "Samsung Store Web Application",
+  tech: ["Java", "Hibernate", "JSP", "Servlets", "MySQL"],
+  desc: "Developed a simple e-commerce web application for Samsung products with user registration, login, product listing, and cart functionality.",
+  impact: "Implemented MVC architecture with Hibernate-based CRUD operations to manage users and products efficiently.",
+  link: "https://github.com/hindochahitarth/SamsungStore"
   }
 ];
 
