@@ -82,7 +82,7 @@ const projects = [
     tech: ["Flutter", "Dart","UI/UX"],
     desc: "Developed a kids-learning app with visuals, audio, and interactive games for ages 2–5.",
     impact: "Helps toddlers learn manners, English basics, numbers, and good habits via images, sounds, and playful buttons.",
-    link: "https://github.com/your-github-username/kidsacademy-app"
+   // link: "https://github.com/your-github-username/kidsacademy-app"
   },
   {
     name: "SamsungStore WebApp",
