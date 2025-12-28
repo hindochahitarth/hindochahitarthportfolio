@@ -60,7 +60,7 @@ const projects = [
     desc: "Live event and workshop platform still running inside CHARUSAT for real-time registrations.",
     impact: "Handled 5K+ student signups with queued notifications and ongoing maintenance.",
     live: "🔴 Live @ CHARUSAT",
-    link: "https://github.com/harsh1036/Spoural_Managment_System"
+    link: "http://spoural.charusat.edu.in/"
   },
   {
     name: "Auction System",
